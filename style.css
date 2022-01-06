@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 55px;
+    margin-left: 10px;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.border-img {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(235, 124, 104), tomato);
+    border-image-slice: 1;
+}
+.color-orange {
+    color: orange;
+}
+.color-tomato {
+    color: tomato;
+}
+.mission-area {
+    display: flex;
+    margin-bottom: 150px;
+}
+a {
+    color: whitesmoke;
+    padding: 13px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: tomato;
+}
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+}
+.half-width img {
+    width: 80%;
+}
+.my-mission {
+    display: flex;
+}
+.my-goals {
+    width: 26%;
+    margin-left: 5%;
+    padding-left: 15px;
+    background-color:rgba(214,211,202,255);
+    border-radius: 8px;
+}
+.my-goals img {
+    width: 50%;
+}
+.bg-mission {
+    background-color:rgba(214,211,202,255);
+}
+.bg-vission {
+    background-color:rgba(254,196,150,255)
+}
+.bg-goals {
+    background-color:#85d3df;
+}
+.document-area {
+    display: flex;
+    margin-top: 150px;
+}
+.doc-img {
+    width: 40%;
+    margin-left: 5%;
+}
+.doc-img img {
+    width: 100%
+}
+.doc-text {
+    width: 70%;
+    margin-left: 5%;   
+}
+.doc-text h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.community-area {
+    display: flex;
+    margin: 150px 0; 
+}
+.project-area {
+    display: flex;
+}
+.my-projects {
+    width: 27%;
+    margin-left: 5%;
+    text-align: center;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 8px;
+}
+.my-projects img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+footer {
+    margin-top: 150px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #19263b;
+    padding: 10px 0;
+}
+#footer-heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
